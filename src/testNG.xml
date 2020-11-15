@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Assignment">
+
+    <test name="SearchProduct">
+        <classes>
+            <class name="Assignment.Page1"></class>
+
+        </classes>
+
+    </test>
+    <test name="FilterProduct">
+        <classes>
+            <class name="Assignment.Page2"></class>
+        </classes>
+    </test>
+</suite>

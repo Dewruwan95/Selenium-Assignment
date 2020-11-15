@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -70,6 +69,19 @@ public class Page1 {
 
     }
 
+    //7. select the first brand in brands category
+    @Test(priority = 5)
+    public void brandCheckBoxClick() {
 
+        WebElement checkBox = driver.findElement(By.xpath("//span[contains(text(),'Under Armour')]"));
+        checkBox.click();
+
+    }
+
+    @AfterTest
+    public void closeWebpage() {
+
+        driver.close();
+    }
 
 }
