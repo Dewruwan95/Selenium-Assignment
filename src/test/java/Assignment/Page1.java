@@ -2,6 +2,7 @@ package Assignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
@@ -14,18 +15,9 @@ public class Page1 {
     WebDriver driver;
     String url = "https://www.amazon.com/";
 
-    @BeforeTest
-    public void beforeTest() {
-        System.out.println("Test method Execute starting - Before Test");
-    }
-
-    @AfterTest
-    public void afterTest() {
-        System.out.println("Test method Executed - After Test");
-    }
 
     //1,2. launch chrome browser and navigate to URL
-    @Test(priority = 0)
+    @BeforeTest
     public void loadWebPage() {
         String exePath = System.getProperty("user.dir") + "\\resources\\drivers\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", exePath);
@@ -33,6 +25,7 @@ public class Page1 {
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
+
     }
 
 
@@ -70,7 +63,13 @@ public class Page1 {
 
     //6. Click on Search button icon
     @Test(priority = 4)
-    public void btnSearchClick(){
+    public void btnSearchClick() {
+
+        WebElement btnGo = driver.findElement(By.xpath("//header/div[@id='navbar']/div[@id='nav-belt']/div[2]/div[1]/form[1]/div[3]/div[1]/span[1]/input[1]"));
+        btnGo.click();
 
     }
+
+
+
 }
