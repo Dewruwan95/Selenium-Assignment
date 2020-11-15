@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class Page1 {
 
-    WebDriver driver;
+    public WebDriver driver;
     String url = "https://www.amazon.com/";
 
 
@@ -68,9 +68,5 @@ public class Page1 {
         btnGo.click();
 
     }
-
-
-
-
 
 }

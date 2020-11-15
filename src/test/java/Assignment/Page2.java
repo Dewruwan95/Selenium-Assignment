@@ -16,9 +16,10 @@ public class Page2 extends Page1 {
 
     }
 
-    @AfterTest
-    public void closeWebpage() {
-
-        driver.close();
+    //8. Select the first search item
+    @Test(priority = 6)
+    public void selectProduct() {
+        WebElement selectedProduct = driver.findElement(By.xpath("//body/div[@id='a-page']/div[@id='search']/div[1]/div[2]/div[1]/span[3]/div[2]/div[2]/div[1]/span[1]/div[1]/div[1]/span[1]/a[1]/div[1]/img[1]"));
+        selectedProduct.click();
     }
 }

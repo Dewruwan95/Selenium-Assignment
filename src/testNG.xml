@@ -4,7 +4,7 @@
 
     <test name="SearchProduct">
         <classes>
-            <class name="Assignment.Page2"></class>
+            <class name="Assignment.Page3"></class>
         </classes>
 
     </test>
