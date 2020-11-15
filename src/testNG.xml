@@ -4,14 +4,8 @@
 
     <test name="SearchProduct">
         <classes>
-            <class name="Assignment.Page1"></class>
-
-        </classes>
-
-    </test>
-    <test name="FilterProduct">
-        <classes>
             <class name="Assignment.Page2"></class>
         </classes>
+
     </test>
 </suite>
