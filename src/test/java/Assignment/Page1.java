@@ -5,10 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+
+//----------------------------------------------------------- Page 01 ---------------------------------------------------------
 public class Page1 {
 
     public WebDriver driver;
@@ -30,11 +33,15 @@ public class Page1 {
 
     //3. verify page url
     @Test(priority = 1)
-    public void verifyUrl() {
+    public void verifyUrl() throws InterruptedException {
+        //wait for page loading
+        Thread.sleep(5000);
+
+        //get url
         String actualUrl = driver.getCurrentUrl();
 
         if (actualUrl.equals(url)) {
-            System.out.println("Verification Successful");
+            System.out.println("URL Verification Successful");
             System.out.println("Web Page URL is : " + actualUrl);
         } else {
             System.out.println("Verification Failed");
@@ -65,6 +72,11 @@ public class Page1 {
     public void btnSearchClick() {
 
         WebElement btnGo = driver.findElement(By.xpath("//header/div[@id='navbar']/div[@id='nav-belt']/div[2]/div[1]/form[1]/div[3]/div[1]/span[1]/input[1]"));
+
+        //Assert bthGo is available
+        Assert.assertTrue(btnGo.isDisplayed());
+
+        //click button
         btnGo.click();
 
     }

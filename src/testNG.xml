@@ -2,9 +2,12 @@
 
 <suite name="Assignment">
 
-    <test name="SearchProduct">
+    <test name="BuyProduct">
+        <parameter name="userName" value="Ositha Dewruwan"></parameter>
+        <parameter name="userEmail" value="test@test.com"></parameter>
+        <parameter name="userPassword" value="Abc@123.456"></parameter>
         <classes>
-            <class name="Assignment.Page3"></class>
+            <class name="Assignment.Page7"></class>
         </classes>
 
     </test>

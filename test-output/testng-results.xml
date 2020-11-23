@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assignment" duration-ms="86511" started-at="2020-11-23T14:51:36 IST" finished-at="2020-11-23T14:53:02 IST">
+    <groups>
+    </groups>
+    <test name="BuyProduct" duration-ms="86511" started-at="2020-11-23T14:51:36 IST" finished-at="2020-11-23T14:53:02 IST">
+      <class name="Assignment.Page7">
+        <test-method status="PASS" signature="loadWebPage()[pri:0, instance:Assignment.Page7@675d3402]" name="loadWebPage" is-config="true" duration-ms="13757" started-at="2020-11-23T14:51:36 IST" finished-at="2020-11-23T14:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadWebPage -->
+        <test-method status="PASS" signature="verifyUrl()[pri:1, instance:Assignment.Page7@675d3402]" name="verifyUrl" duration-ms="5024" started-at="2020-11-23T14:51:49 IST" finished-at="2020-11-23T14:51:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="selectItemType()[pri:2, instance:Assignment.Page7@675d3402]" name="selectItemType" duration-ms="171" started-at="2020-11-23T14:51:54 IST" finished-at="2020-11-23T14:51:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItemType -->
+        <test-method status="PASS" signature="typeText()[pri:3, instance:Assignment.Page7@675d3402]" name="typeText" duration-ms="93" started-at="2020-11-23T14:51:55 IST" finished-at="2020-11-23T14:51:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeText -->
+        <test-method status="PASS" signature="btnSearchClick()[pri:4, instance:Assignment.Page7@675d3402]" name="btnSearchClick" duration-ms="4601" started-at="2020-11-23T14:51:55 IST" finished-at="2020-11-23T14:51:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btnSearchClick -->
+        <test-method status="PASS" signature="brandCheckBoxClick()[pri:5, instance:Assignment.Page7@675d3402]" name="brandCheckBoxClick" duration-ms="8768" started-at="2020-11-23T14:51:59 IST" finished-at="2020-11-23T14:52:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandCheckBoxClick -->
+        <test-method status="PASS" signature="selectProduct()[pri:6, instance:Assignment.Page7@675d3402]" name="selectProduct" duration-ms="5788" started-at="2020-11-23T14:52:08 IST" finished-at="2020-11-23T14:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method status="PASS" signature="selectProductSize()[pri:7, instance:Assignment.Page7@675d3402]" name="selectProductSize" duration-ms="5378" started-at="2020-11-23T14:52:14 IST" finished-at="2020-11-23T14:52:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductSize -->
+        <test-method status="PASS" signature="getItemTitle()[pri:8, instance:Assignment.Page7@675d3402]" name="getItemTitle" duration-ms="135" started-at="2020-11-23T14:52:19 IST" finished-at="2020-11-23T14:52:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemTitle -->
+        <test-method status="PASS" signature="addToCart()[pri:9, instance:Assignment.Page7@675d3402]" name="addToCart" duration-ms="7105" started-at="2020-11-23T14:52:19 IST" finished-at="2020-11-23T14:52:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="printPrice()[pri:10, instance:Assignment.Page7@675d3402]" name="printPrice" duration-ms="5059" started-at="2020-11-23T14:52:26 IST" finished-at="2020-11-23T14:52:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPrice -->
+        <test-method status="PASS" signature="clickCart()[pri:11, instance:Assignment.Page7@675d3402]" name="clickCart" duration-ms="5173" started-at="2020-11-23T14:52:32 IST" finished-at="2020-11-23T14:52:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCart -->
+        <test-method status="PASS" signature="verifyCart()[pri:12, instance:Assignment.Page7@675d3402]" name="verifyCart" duration-ms="5100" started-at="2020-11-23T14:52:37 IST" finished-at="2020-11-23T14:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+        <test-method status="PASS" signature="verifyQuantity()[pri:13, instance:Assignment.Page7@675d3402]" name="verifyQuantity" duration-ms="28" started-at="2020-11-23T14:52:42 IST" finished-at="2020-11-23T14:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantity -->
+        <test-method status="PASS" signature="verifySubtotal()[pri:14, instance:Assignment.Page7@675d3402]" name="verifySubtotal" duration-ms="63" started-at="2020-11-23T14:52:42 IST" finished-at="2020-11-23T14:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubtotal -->
+        <test-method status="PASS" signature="proceedToCheckout()[pri:15, instance:Assignment.Page7@675d3402]" name="proceedToCheckout" duration-ms="2992" started-at="2020-11-23T14:52:42 IST" finished-at="2020-11-23T14:52:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckout -->
+        <test-method status="PASS" signature="createAccount()[pri:16, instance:Assignment.Page7@675d3402]" name="createAccount" duration-ms="6718" started-at="2020-11-23T14:52:45 IST" finished-at="2020-11-23T14:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="typeUserDetails(java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:Assignment.Page7@675d3402]" name="typeUserDetails" duration-ms="5405" started-at="2020-11-23T14:52:52 IST" finished-at="2020-11-23T14:52:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ositha Dewruwan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc@123.456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeUserDetails -->
+        <test-method status="PASS" signature="closeWebpage()[pri:0, instance:Assignment.Page7@675d3402]" name="closeWebpage" is-config="true" duration-ms="5081" started-at="2020-11-23T14:52:57 IST" finished-at="2020-11-23T14:53:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebpage -->
+      </class> <!-- Assignment.Page7 -->
+    </test> <!-- BuyProduct -->
+  </suite> <!-- Assignment -->
+</testng-results>
